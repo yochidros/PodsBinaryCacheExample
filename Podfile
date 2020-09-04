@@ -7,6 +7,7 @@ config_cocoapods_binary_cache(
   prebuild_config: "Debug",
   dev_pods_enabled: true
 )
+
 all_binary!
 enable_bitcode_for_prebuilt_frameworks!
 keep_source_code_for_prebuilt_frameworks!

@@ -1,4 +1,5 @@
 {
-  "cache_repo": "https://github.com/yochidros/PodsBinaryCacheExample.git",
-  "cache_path": "~/Library/Caches/CocoaPods/PodsBinaryCacheExample-libs/"
+  "cache_repo": "git@github.com:yochidros/PodsBinaryCacheExample.git",
+  "cache_path": "~/Library/Caches/CocoaPods/PodsBinaryCacheExample-libs/",
+  "output_path": "./Pods/_Prebuild/"
 }
