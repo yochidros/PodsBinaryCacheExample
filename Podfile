@@ -2,12 +2,17 @@
 platform :ios, '11.0'
 plugin 'cocoapods-binary-cache'
 
+config_cocoapods_binary_cache(
+  prebuild_config: "Debug",
+  dev_pods_enabled: false
+)
 
 target 'PodsBinaryCacheExample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   pod 'RealmSwift', :binary=>true
+  pod 'Realm', :binary=>true
 end
 
 post_install do |installer|
